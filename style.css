@@ -1,0 +1,357 @@
+p {
+    font-family: "Leelawadee UI";
+    font-size: 20px;
+}
+/* header */
+#navigationBar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.mytitle {
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+.navigation {
+    display: flex;
+    width: 49%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: "Leelawadee UI";
+    font-size: 18px;
+}
+.icons {
+    display: flex;
+    width: 52%;
+    align-items: center;
+    justify-content: flex-end;
+}
+#social {
+    padding-right: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+.hamburger {
+    display: none;
+}
+.navigation li {
+    cursor: pointer;
+    text-decoration: none;
+  }
+.inline-block {
+    display: inline-block;
+    padding-right: 50px;
+    font-weight: 400;
+    color: #000000;
+}
+.inline-block:hover {
+    color: rgb(38, 180, 205);
+}
+.inline-block a {
+    color: #000000;
+    text-decoration-line: none;
+}
+.inline-block a:hover {
+    color: rgb(38, 180, 205);
+}
+#highlight {
+    text-decoration: underline;
+}
+  
+/* Hero Section */
+body {
+    margin: 0;
+}
+.herosection {
+    position: relative;
+}
+#homebg {
+    border-bottom: 1px solid #EAEAEE;
+    max-height: 600px;
+    height: 70vh;
+    width: 100%;
+}
+.herowritten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#text1 {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    width: 100%;
+    font-family: "Leelawadee UI";
+    font-size: 20px;
+}
+#text2 {
+    position: absolute;
+    top: 12%;
+    text-align: center;
+    width: 100%;
+    font-family: 'EB Garamond', serif;
+    font-size: 65px;
+}
+#text3 {
+    position: absolute;
+    top: 42%;
+    text-align: center;
+    width: 100%;
+    font-family: "Leelawadee UI";
+    font-size: 20px;
+}
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #346EAA;
+    border: none;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    padding: 20px 70px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 33px;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAEAEE;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+}
+.footericons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+#footersocial {
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#footernote {
+    font-family: "Leelawadee UI";
+    font-size: 18px;
+}
+
+/* My Projects */
+#projectTitle {
+    text-align: center;
+    font-size: 30px;
+}
+.projectGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
+    place-items: start center;
+}
+.projectBox {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.projectBox p {
+    font-size: 18px;
+}
+.leftProjects {
+    margin-left: 30%;
+}
+.rightProjects {
+    margin-right: 30%;
+}
+.projectImages {
+    border: 1px solid rgb(185, 185, 185);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* About Me */
+.aboutMe {
+    background-color: #EAEAEE;
+    padding: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titles {
+    font-size: 30px;
+    margin-left: 10%;
+}
+.aboutWritten {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+}
+#profile {
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 350px;
+}
+
+/* My Skills */
+.mySkills {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.skillT {
+    margin-left: 8.75%;
+}
+.skillsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
+    place-items: start center;
+}
+.skillsBox {
+    width: 80%;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.skillsBox p {
+    font-size: 18px;
+}
+.leftSkill {
+    margin-left: 15%;
+}
+.rightSkill {
+    margin-right: 15%;
+}
+
+/* Mobile Query*/
+@media only screen and (max-width: 600px) {
+    .navigation {
+        display: none;
+    }
+    .icons {
+        display: none;
+    }
+    .navigation {
+        position: fixed;
+        left: -150%;
+        top: 48px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: 100;
+    }
+    .navigation.active {
+        left: 0;
+    }
+    .inline-block {
+        padding-top: 30px;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        padding-right: 5%;
+        padding-top: 2%;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .mytitle {
+        padding-left: 20%;
+    }
+
+
+    #text2 {
+        font-size: 55px;
+    }
+    #text3 {
+        margin-left: 10%;
+        align-items: center;
+        width: 400px;
+    }
+    .button {
+        font-size: 20px;
+        padding: 20px 40px;
+        top: 85%;
+    }
+    .projectGrid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .projectBox {
+        width: 90%;
+        margin: 0;
+        justify-content: center;
+    }
+    .projectImages {
+        width: 100%;
+        align-items: center;
+    }
+    
+    .aboutMe {
+        flex-direction: column;
+    }
+    #profile {
+        margin: 10%;
+        margin-top: 5%;
+        width: 80%;
+        height: 350px;
+    }
+
+    .skillsGrid {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftSkill {
+        margin-left: 10%;
+    }
+    .rightSkill {
+        margin-left: 10%;
+    }
+}
