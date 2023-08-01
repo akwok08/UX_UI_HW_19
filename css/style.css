@@ -199,6 +199,7 @@ body {
 .aboutMe {
     background-color: #EAEAEE;
     padding: 2%;
+    padding-bottom: 4%;
     margin-top: 0.5%;
     margin-bottom: 2%;
     display: flex;
@@ -226,8 +227,9 @@ body {
 
 /* My Skills */
 .mySkills {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    
 }
 .skillT {
     margin-left: 8.75%;
@@ -236,17 +238,15 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 0px;
+    grid-gap: 15px;
     place-items: start center;
 }
 .skillsBox {
     width: 80%;
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
-.skillsBox p {
-    font-size: 18px;
-}
+
 .leftSkill {
     margin-left: 15%;
 }
@@ -313,11 +313,6 @@ body {
         margin-left: 10%;
         align-items: center;
         width: 400px;
-    }
-    .button {
-        font-size: 20px;
-        padding: 20px 40px;
-        top: 85%;
     }
     .projectGrid {
         display: flex;
